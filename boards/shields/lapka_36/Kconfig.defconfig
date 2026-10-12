@@ -1,34 +1,34 @@
-if SHIELD_LAPKA_WELLUM36_DONGLE
+if SHIELD_LAPKA_36_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "Lapka"
+  default "Lapka"
 
 config ZMK_USB
-	default y
+  default y
 
 config ZMK_STUDIO
   default y
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
+  default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
   default 2
 
 config BT_MAX_CONN
-  default 7
+  default 5
 
 config BT_MAX_PAIRED
-  default 7
+  default 5
 
 endif
 
-if SHIELD_LAPKA_WELLUM36_LEFT || SHIELD_LAPKA_WELLUM36_RIGHT || SHIELD_LAPKA_WELLUM36_DONGLE
+if SHIELD_LAPKA_36_LEFT || SHIELD_LAPKA_36_RIGHT || SHIELD_LAPKA_36_DONGLE
 
 config ZMK_SPLIT
-	default y
+  default y
 
 config ZMK_BLE
-	default y
+  default y
 
 endif

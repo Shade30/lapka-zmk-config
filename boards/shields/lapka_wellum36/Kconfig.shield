@@ -1,8 +1,0 @@
-config SHIELD_LAPKA_WELLUM36_LEFT
-	def_bool $(shields_list_contains,lapka_wellum36_left)
-
-config SHIELD_LAPKA_WELLUM36_RIGHT
-	def_bool $(shields_list_contains,lapka_wellum36_right)
-
-config SHIELD_LAPKA_WELLUM36_DONGLE
-	def_bool $(shields_list_contains,lapka_wellum36_dongle)

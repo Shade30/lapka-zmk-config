@@ -1,4 +1,4 @@
-#include "lapka_wellum36.dtsi"
+#include "lapka_36.dtsi"
 
 &default_transform {
 	col-offset = <18>;
@@ -12,15 +12,15 @@
 		, <&pro_micro  8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // U
 		, <&pro_micro  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Y
 
-		, <&pro_micro  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // ~
+		, <&pro_micro  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // ;
 		, <&pro_micro  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // O
 		, <&pro_micro  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // I
 		, <&pro_micro  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // J
 		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // H
 
-		, <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // ]
-		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // [
-		, <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // &
+		, <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // /
+		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // .
+		, <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // ,
 		, <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // M
 		, <&pro_micro  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // N
 

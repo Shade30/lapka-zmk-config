@@ -29,7 +29,7 @@
       , <&key_physical_attrs 100 100  700 100   0   0   0> // J
       , <&key_physical_attrs 100 100  800 100   0   0   0> // K
       , <&key_physical_attrs 100 100  900 100   0   0   0> // L
-      , <&key_physical_attrs 100 100 1000 100   0   0   0> // ~
+      , <&key_physical_attrs 100 100 1000 100   0   0   0> // ;
 
       , <&key_physical_attrs 100 100    0 200   0   0   0> // Z
       , <&key_physical_attrs 100 100  100 200   0   0   0> // X
@@ -39,17 +39,17 @@
 
       , <&key_physical_attrs 100 100  600 200   0   0   0> // N
       , <&key_physical_attrs 100 100  700 200   0   0   0> // M
-      , <&key_physical_attrs 100 100  800 200   0   0   0> // &
-      , <&key_physical_attrs 100 100  900 200   0   0   0> // [
-      , <&key_physical_attrs 100 100 1000 200   0   0   0> // ]
+      , <&key_physical_attrs 100 100  800 200   0   0   0> // ,
+      , <&key_physical_attrs 100 100  900 200   0   0   0> // .
+      , <&key_physical_attrs 100 100 1000 200   0   0   0> // /
 
-      , <&key_physical_attrs 100 100  200 300   0   0   0> // CAPS
+      , <&key_physical_attrs 100 100  200 300   0   0   0> // TAB
       , <&key_physical_attrs 100 100  300 300   0   0   0> // SPACE
-      , <&key_physical_attrs 100 100  400 300   0   0   0> // NAV
+      , <&key_physical_attrs 100 100  400 300   0   0   0> // RET
 
-      , <&key_physical_attrs 100 100  600 300   0   0   0> // SYM
-      , <&key_physical_attrs 100 100  700 300   0   0   0> // SHIFT
-      , <&key_physical_attrs 100 100  800 300   0   0   0> // ALT
+      , <&key_physical_attrs 100 100  600 300   0   0   0> // ESC
+      , <&key_physical_attrs 100 100  700 300   0   0   0> // BSP
+      , <&key_physical_attrs 100 100  800 300   0   0   0> // DEL
       ;
   };
 };

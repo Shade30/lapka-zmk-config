@@ -1,0 +1,13 @@
+file_format: "1"
+id: lapka_36
+name: Lapka36
+type: shield
+url: https://github.com/Shade30/lapka-zmk-config
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - lapka_36_left
+  - lapka_36_right
+  - lapka_36_dongle

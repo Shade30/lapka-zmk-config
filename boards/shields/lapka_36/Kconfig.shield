@@ -1,0 +1,8 @@
+config SHIELD_LAPKA_36_LEFT
+	def_bool $(shields_list_contains,lapka_36_left)
+
+config SHIELD_LAPKA_36_RIGHT
+	def_bool $(shields_list_contains,lapka_36_right)
+
+config SHIELD_LAPKA_36_DONGLE
+	def_bool $(shields_list_contains,lapka_36_dongle)
